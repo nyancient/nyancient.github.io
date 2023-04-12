@@ -19,3 +19,21 @@ Description: FIDO2 two factor authentication for LUKS disks
  Requires a FIDO2 token which supports the hmac-secret extension.
 Homepage: https://github.com/nyancient/fido2-luks
 
+Package: uwu-desktop
+Priority: optional
+Section: misc
+Installed-Size: 10
+Maintainer: nyancient <foxolotl@protonmail.com>
+Architecture: all
+Version: 0.1
+Depends: sway, swayidle, swaylock, waybar, slurp, mako-notifier, network-manager-openvpn-gnome, wl-clipboard, grimshot, xdg-desktop-portal-wlr, blueman, tlp, thefuck, synapse, sshfs, fido2-luks, scdaemon, sddm, playerctl, brightnessctl, pavucontrol, neofetch, mpv, aptly, build-essential, devscripts, fish, kitty, fonts-firacode, fonts-font-awesome, gcc, gtk-chtheme, curl, wget, openjdk-17-jdk, age, minisign
+Filename: pool/main/u/uwu-desktop/uwu-desktop_0.1_all.deb
+Size: 2692
+MD5sum: 76ded3ca922cdce347cb63c46b11e75a
+SHA1: e93137296b129ae3075a55fef95f88b0e64ad067
+SHA256: 0433146c9507b598ab1465df77b4a0768183eb03012e7297f0b28cbcf1433257
+SHA512: 06d0b9242e1e02f0ecbf05d48bf93f4c6590c9418e1f83c26088bdd63d19f44cc6369c5c2054fca7819160dafde35bc27133c3a6f3ef2ce04fb526763d0a2db6
+Description: Sway-based desktop environment and misc. utilities.
+ Metapackage for installing a Sway-based desktop, along with a bunch of useful development tools.
+Multi-Arch: foreign
+
