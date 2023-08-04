@@ -67,6 +67,24 @@ Section: misc
 Installed-Size: 10
 Maintainer: nyancient <foxolotl@protonmail.com>
 Architecture: all
+Version: 0.1.2
+Depends: sway, swayidle, swaylock, kanshi, waybar, slurp, mako-notifier, network-manager-openvpn-gnome, wl-clipboard, grimshot, xdg-desktop-portal-wlr, blueman, tlp, thefuck, synapse, sshfs, scdaemon, sddm, playerctl, brightnessctl, pavucontrol, neofetch, mpv, aptly, build-essential, devscripts, fish, kitty, fonts-firacode, fonts-font-awesome, gcc, gtk-chtheme, curl, wget, openjdk-17-jdk, age, minisign, htop, ncal, libssl-dev, flex, bison, python3-i3ipc
+Filename: pool/main/u/uwu-desktop/uwu-desktop_0.1.2_all.deb
+Size: 2760
+MD5sum: 0deeec3318539b94ddf89dbabad1b3e6
+SHA1: 0da136b925273aa1726088cdd5e643e3c97040eb
+SHA256: eaa10200067d9c0e96e163bc1e85d02b8fe7b66475fd9d04e2e24484a15b116f
+SHA512: 0a1cdf9f49f78a091b7f6bca90251ce297052be099f1013adaf5967d782007c56906b5a227e491eb0d4c272faf4e1bc32a4c4cf0ad95b4c8dfa21f26eeecae5a
+Description: Sway-based desktop environment and misc. utilities.
+ Metapackage for installing a Sway-based desktop, along with a bunch of useful development tools.
+Multi-Arch: foreign
+
+Package: uwu-desktop
+Priority: optional
+Section: misc
+Installed-Size: 10
+Maintainer: nyancient <foxolotl@protonmail.com>
+Architecture: all
 Version: 0.1.1
 Depends: sway, swayidle, swaylock, waybar, slurp, mako-notifier, network-manager-openvpn-gnome, wl-clipboard, grimshot, xdg-desktop-portal-wlr, blueman, tlp, thefuck, synapse, sshfs, scdaemon, sddm, playerctl, brightnessctl, pavucontrol, neofetch, mpv, aptly, build-essential, devscripts, fish, kitty, fonts-firacode, fonts-font-awesome, gcc, gtk-chtheme, curl, wget, openjdk-17-jdk, age, minisign, htop, ncal, libssl-dev, flex, bison
 Filename: pool/main/u/uwu-desktop/uwu-desktop_0.1.1_all.deb
