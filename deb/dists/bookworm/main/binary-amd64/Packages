@@ -4,6 +4,27 @@ Section: admin
 Installed-Size: 31
 Maintainer: Nyancient <foxolotl@protonmail.com>
 Architecture: all
+Version: 0.2.4-1
+Depends: coreutils (>= 9), util-linux (>= 2.33), cryptsetup (>= 2.4.0), initramfs-tools, jq, fido2-tools, systemd (>= 238)
+Filename: pool/main/f/fido2-luks/fido2-luks_0.2.4-1_all.deb
+Size: 8884
+MD5sum: 03327be692f1c471a72641e3184fb3a6
+SHA1: bb62bd647e7d6018e22080b854e00e660bffa92b
+SHA256: 386ba03fb01d07650101c26caf4b0bce40ce6c1e6e64979616517890121c0bff
+SHA512: dc5a15cd9b6d1ae1973531e940c0ebbe87dfd4a64feeb3ff423fd23859f456ca8384c3a152104a350ca80301737dba0db0642f161795e844ab32155334dd62ac
+Description: FIDO2 two factor authentication for LUKS disks
+ With this extension to the initramfs-tools, you can unlock a LUKS encrypted
+ disk using your FIDO2 token as a strong single factor.
+ .
+ Requires a FIDO2 token which supports the hmac-secret extension.
+Homepage: https://github.com/nyancient/fido2-luks
+
+Package: fido2-luks
+Priority: optional
+Section: admin
+Installed-Size: 31
+Maintainer: Nyancient <foxolotl@protonmail.com>
+Architecture: all
 Version: 0.2.3-1
 Depends: coreutils (>= 9), util-linux (>= 2.33), cryptsetup (>= 2.4.0), initramfs-tools, jq, fido2-tools, systemd (>= 238)
 Filename: pool/main/f/fido2-luks/fido2-luks_0.2.3-1_all.deb
